@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Registration</h1>
+    <div class="input-form">
+            <label for="fname" class="lfname">First Name</label><br>
+            <input type="text" class="fname" name="First Name" placeholder="Enter Your First Name" required><br>
+            <label for="lname" class="llname">Last Name</label><br>
+            <input type="text" class="lname" name="Last Name" placeholder="Enter Your Last Name" required><br>
+        </div>
+        <div class="gender">
+            <label for="gender" class="lgender">Gender</label><br>
+            <input type="radio" class="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" class="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
+            <div>
+                <label for="dob" class="ldob">Date of Birth</label><br>
+                <input type="date" class="date" name="dob">
+            </div>
+          <div>
+            <label for="email" class="lemail">Email Address</label><br>
+            <input type="email" class="email" name="email id" placeholder="Enter your Email Adress">
+          </div>
+        <div>
+            <label for="mobile" class="lmobile">Mobile Number</label><br>
+            <input type="text" class="mobile" name="mobile number" placeholder="Enter your Phone Number">
+        </div>
+          <div>
+            <label for="address" class="laddress">Address</label><br>
+            <textarea name="address" class="address" rows="10" cols="20"></textarea>
+          </div>
+          <div>
+            <label for="photo" class="lphoto">Add your Photo</label><br>
+            <input type="file" class="file" name="photo">
+          </div>
+            <div>
+                <label for="courses" class="lcourses">Courses</label><br>
+                <select name="courses" class="courses">
+                    <option value="Mern">MERN Stack Development</option>
+                    <option value="python">Python Full Stack Development</option>
+                    <option value="java">Java Full Stack Development</option>
+                </select><br>
+            </div>
+           <div>
+            <button type="submit" class="btn" value="register">Register</button>
+            <button type="reset" class="reset" value="reset">Reset</button>
+           </div>
+           </form>
+    
+    </div>
+</body>
+</html>
